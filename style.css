@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+  body {
+    font-family: 'Poppins';
+  }
+
+  header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .logo {
+      width: 75px;
+      height: 25px;
+      margin: 10px;
+  }
+
+  .magnify {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+
+  .searchPackages {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 15px;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,.05);
+  }
+
+  #name{
+    font-family: 'Poppins';
+    background-color: rgba(0,0,0,.05);
+    border: none;
+    width: 90%;
+    height: 30px;
+    padding: 0px;
+  }
+
+  form > button {
+    font-family: 'Poppins';
+    margin-left: 10px;  
+    background-color: #fb3e44;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 5px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .joinButton {
+    background-color: white;
+    font-family: 'Poppins';
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50px;
+  }
+
+  .loginButton {
+    background-color: white;
+    font-family: 'Poppins';
+    border:none;
+    border-radius: 5px;
+    width: 60px;
+  }
+
+  #one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background-color:rgba(232,217,217,.3);
+  }
+
+  h1 {
+    font-size: 60px;
+    margin: 80px 0px;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .seePlansButton {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 700;
+    margin: 80px 15px;
+    background-color: #FB3B49;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border: none;
+    box-shadow:  8px 8px 0 rgba(251,59,73,.2);
+    }
+  
+  .joinForFreeButton {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 700;
+    margin: 80px 5px;
+    background-color: white;
+    color: black;
+    width: 180px;
+    height: 50px;
+    border: none;
+    }
+    
+    #two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+      }
+
+    .trian {
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-style: italic;
+        background-color: rgba(255,204,53,.4);
+        transform: skew(9deg,0deg);
+        padding: 0px 40px;
+        margin: 40px 0px;
+    }
+
+    #three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+    }
+
+    #three > div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .zero {
+        width: 50px;
+        height: 50px;
+    }
+
+    .team {
+        width: 50px;
+        height: 50px;
+    }
+
+    .familiar {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .audit {
+        width: 50px;
+        height: 50px;
+    }
